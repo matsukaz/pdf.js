@@ -236,7 +236,7 @@ PDFJS.externalLinkRel = (PDFJS.externalLinkRel === undefined ?
   * @var {boolean}
   */
 PDFJS.isEvalSupported = (PDFJS.isEvalSupported === undefined ?
-                         true : PDFJS.isEvalSupported);
+                         false : PDFJS.isEvalSupported);
 
 PDFJS.getDocument = getDocument;
 PDFJS.LoopbackPort = LoopbackPort;

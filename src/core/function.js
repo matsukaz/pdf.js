@@ -26,7 +26,7 @@ let IsEvalSupportedCached = {
 };
 
 class PDFFunctionFactory {
-  constructor({ xref, isEvalSupported = true, }) {
+  constructor({ xref, isEvalSupported = false, }) {
     this.xref = xref;
     this.isEvalSupported = isEvalSupported !== false;
   }
